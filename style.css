@@ -131,7 +131,7 @@ p{
 
 /*Primary-color*/
 .color-white{color: #fff;}
-.color-basic{color: #2bbcc0;} 
+.color-basic{color: #2ABCC0;} 
 
 .mr-auto{ margin-right: auto; }
 
@@ -147,8 +147,8 @@ li > ol {
 }
 
 a.btn{
-	background: #2BBCC0;
-    color: #fff;
+	background: #2ABCC0;
+    color: #1F1F1F;
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 6px;
@@ -160,13 +160,13 @@ a.btn{
 	text-transform: capitalize;
 }
 a.btn:hover{
-	box-shadow: 0px 0px 6px #BDD70099;
-	background: #BDD700;
+	box-shadow: 0px 0px 6px #2ABCC099;
+	background: #2ABCC0;
 	color: #fff;
 }
 a.btn:focus{
-	box-shadow: 0px 0px 6px #BDD70099;
-	background: #BDD700;
+	box-shadow: 0px 0px 6px #2ABCC099;
+	background: #2ABCC0;
 	color: #fff;
 }
 
@@ -423,7 +423,7 @@ textarea {
 	padding: 0 15px;
 }
 
-/* HEAADER */
+/* HEADER */
 .top-bar{ background: #2abcc0; padding: 8px; }
 .top-bar ul{ margin: 0; padding: 0; text-align: right; display: flex; justify-content: flex-end; }
 .top-bar ul li{ display: inline-block; border-right: 1px solid #fff; list-style: none; padding: 0 15px; margin: 0; color: #fff; font-size: 14px; line-height: 20px; font-weight: 500; }
@@ -445,7 +445,7 @@ textarea {
 .header-logo a{ display: block; }
 .fixed-header{ position: fixed; background: #fff; width: 100%; left: 0; top: 0; z-index: 11; border-bottom: 1px solid #f3f3f3; }
 
-.bottom-header{ background: #f3f3f3; color: #000; padding: 3px 0; font-size: 14px; color: #464646; margin-top: 105px; }
+.bottom-header{ background: #f3f3f3; color: #000; padding: 3px 0; font-size: 14px; color: #464646; margin-top: 74px; }
 .ofc-logo img{ mix-blend-mode: darken; max-width: 220px; }
 .ofc-text{ font-weight: 500; } 
 
@@ -586,15 +586,15 @@ textarea {
 
 .searchbox .searchbox-icon:hover i,
 .searchbox .searchbox-submit:hover i,
-.searchbox.searchbox-open .searchbox-icon i{ color: #bdd700; }
+.searchbox.searchbox-open .searchbox-icon i{ color: #2ABCC0; }
 
 
 /* SLIDER */
 .hero-banner-slide{ display: flex !important; align-items: center; justify-content: center; height: 750px; background-size: cover; background-repeat: no-repeat; }
-.hero-banner-slide h1 { color: #fff; margin: 0; -webkit-text-stroke: 2px #2abcc0; }
+.hero-banner-slide h1 { color: #fff; margin: 0; -webkit-text-stroke: 2px #258580; }
 .hero-banner-slide h2 { 
 	color:#fff;
-}  
+} 
 
 .hero-banner-slide{
 	transition:cubic-bezier(1, 0, 0, 1) 3000ms; 
@@ -788,10 +788,10 @@ td br, th br{ display: none; }
 .featured-news-image{	height: 288px; width: 100%; overflow: hidden;}
 .featured-news-image img{height: 100%; width: 100%; display: flex; align-self: stretch; object-fit: cover;}
 .featured-news-details{padding: 15px;     padding-bottom: 25px;}
-.featured-news-title{ line-height: 36px; font-family: 'Roboto Condensed', sans-serif; margin: 10px 0px; text-align: left;	font-size: 28px;	color: #0D1548; letter-spacing: 0px; font-weight: 700;}
-.news-desciption p{font-size: 18px; line-height: 28px; font-weight: 300; letter-spacing: 0px; margin-bottom: 10px; color: #0D1548; }
-.read-more-link a{font-size: 14px;text-transform: uppercase;font-weight: 800;color: #0D1548; letter-spacing: 0.7px; }
-.read-more-link a:hover{color: #BDD700;}
+.featured-news-title{ line-height: 36px; font-family: 'Roboto Condensed', sans-serif; margin: 10px 0px; text-align: left;	font-size: 28px;	color: #021C1B; letter-spacing: 0px; font-weight: 700;}
+.news-desciption p{font-size: 18px; line-height: 28px; font-weight: 300; letter-spacing: 0px; margin-bottom: 10px; color: #021C1B; }
+.read-more-link a{font-size: 14px;text-transform: uppercase;font-weight: 800;color: #021C1B; letter-spacing: 0.7px; }
+.read-more-link a:hover{color: #2ABCC0;}
 .featured-news-image:hover img{transform: scale(1.2);}
 .featured-news-image img{transition: .3s all;}
 /* -------------------------
@@ -829,11 +829,11 @@ td br, th br{ display: none; }
 }
 .chat-link{width: 20px; display: flex;}
 .tc-contact-info a{color: #FFFFFF;}
-.tc-contact-info a:hover{color: #bdd700;}
+.tc-contact-info a:hover{color: #2ABCC0;}
 span.next.slick-arrow{cursor: pointer;}
 span.prev.slick-arrow{cursor: pointer;}
-.footer-signup-main input[type="submit"]:hover{background-color: #bdd700; border-color: #bdd700;}
-.footer-signup-main .social-links li:hover{background-color: #bdd700; box-shadow: 0px 0px 6px #bdd70099;}
+.footer-signup-main input[type="submit"]:hover{color: #1F1F1F; background-color: #258580; border-color: #258580;}
+.footer-signup-main .social-links li:hover{background-color: #258580; box-shadow: 0px 0px 6px #25858099;}
 .three-content p{font-weight: 300;}
 .chat-link img{width: 20px; height: 20px;}
 .chat-link-icon{    position: absolute;
