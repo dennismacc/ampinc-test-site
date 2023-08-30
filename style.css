@@ -832,7 +832,7 @@ td br, th br{ display: none; }
 .tc-contact-info a:hover{color: #2ABCC0;}
 span.next.slick-arrow{cursor: pointer;}
 span.prev.slick-arrow{cursor: pointer;}
-.footer-signup-main input[type="submit"]:hover{color: #1F1F1F; background-color: #258580; border-color: #258580;}
+.footer-signup-main input[type="submit"]:hover{background-color: #258580; border-color: #258580;}
 .footer-signup-main .social-links li:hover{background-color: #258580; box-shadow: 0px 0px 6px #25858099;}
 .three-content p{font-weight: 300;}
 .chat-link img{width: 20px; height: 20px;}
@@ -992,8 +992,8 @@ span.prev.slick-arrow{cursor: pointer;}
 	outline: none;
 }
 .contact-us-form .gform_wrapper.gravity-theme input[type=submit]{
-	background: #2BBCC0;
-    color: #fff;
+	background: #2ABCC0;
+    color: #1F1F1F;
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 6px;
@@ -1007,8 +1007,8 @@ span.prev.slick-arrow{cursor: pointer;}
     text-transform: capitalize;
 }
 .contact-us-form .gform_wrapper.gravity-theme input[type=submit]:hover{
-	box-shadow: 0px 0px 6px #bdd70099;
-	background: #BDD700;
+	box-shadow: 0px 0px 6px #2ABCC099;
+	background: #2ABCC0;
 	color: #fff;
 }
 .contact-us-form .gform_footer{text-align: end;}
