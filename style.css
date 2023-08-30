@@ -590,13 +590,11 @@ textarea {
 
 
 /* SLIDER */
-.hero-banner-slide{ display: flex !important; align-items: center; justify-content: center; height: auto; background-size: cover; background-repeat: no-repeat; }
-.hero-banner-slide h1 { color: #fff; margin: 0; }
-.hero-banner-slide h1 span{ 
-	display: block; 
-	-webkit-text-stroke: 3px #2abcc0;
-    -webkit-text-fill-color: transparent;
-} 
+.hero-banner-slide{ display: flex !important; align-items: center; justify-content: center; height: 750px; background-size: cover; background-repeat: no-repeat; }
+.hero-banner-slide h1 { color: #fff; margin: 0; -webkit-text-stroke: 2px #2abcc0; }
+.hero-banner-slide h2 { 
+	color:#fff;
+}  
 
 .hero-banner-slide{
 	transition:cubic-bezier(1, 0, 0, 1) 3000ms; 
