@@ -122,7 +122,7 @@ function search_by_attributes() {
 				</td>
 				<?php $prodprice = $product->get_price_html(); ?>
 					<?php if($product->get_price() == '0'){ ?>
-						  <td class="1"><?php echo '$ ?'; ?></td>				
+						  <td class="1"><?php echo 'Request a Quote'; ?></td>				
 					<?php } else { ?>
 						  <td class="2"> <?php echo $prodprice;?></td>
 					<?php } ?>
