@@ -132,8 +132,17 @@ $general_banner = get_field('general_banner','option');
             <div class="attr-filter-block cap-attr">
                 <h5>Capacity</h5>
                 <ul>
-                    <?php 
-                    $wcatTerms = get_terms('pa_capacity', array( 'hide_empty' => true, 'parent' =>0)); 
+                    <?php
+					$allowed_capacities = array('08gb', '16gb', '32gb', '64gb', '128gb', '256gb');
+				
+                    $wcatTerms = get_terms('pa_capacity', array( 
+						'hide_empty' => true, 
+						'parent' => 0,
+						'slug' => $allowed_capacities,
+					));
+					
+					//var_dump($wcatTerms);
+					
                     usort( $wcatTerms, function($a, $b) {
                         $ai = filter_var($a->slug, FILTER_SANITIZE_NUMBER_INT);
                         $bi = filter_var($b->slug, FILTER_SANITIZE_NUMBER_INT);
@@ -147,12 +156,12 @@ $general_banner = get_field('general_banner','option');
                         //print_r($wcatTerm);
 
                         //echo $wcatTerm->term_id;
-
                         ?>
+
                         <li>
                             <input type="checkbox" id="<?php echo $wcatTerm->name; ?>" name="vehicle1" value="<?php echo $wcatTerm->slug; ?>">
                             <label for="<?php echo $wcatTerm->name; ?>"><?php echo $wcatTerm->name; ?></label>
-                        </li>
+                        </li>				
                         <?php
                     }
                     ?>
