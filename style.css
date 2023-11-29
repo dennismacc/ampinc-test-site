@@ -49,7 +49,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Alignments
 
 --------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -590,15 +589,12 @@ textarea {
 
 
 /* SLIDER */
-.hero-banner-slide{ display: flex !important; align-items: center; justify-content: center; height: 750px; background-size: cover; background-repeat: no-repeat; }
-.hero-banner-slide h1 { color: #fff; margin: 0; -webkit-text-stroke: 2px #258580; }
+.hero-banner-slide{ display: flex !important; align-items: center; justify-content: center; height: 750px; background-size: cover; background-repeat: no-repeat; animation: 3s ease 0s normal none infinite running slide; }
+.hero-banner-slide h1 { color: #fff; margin: 0; -webkit-text-stroke: 3px #258580; }
 .hero-banner-slide h2 { 
-	color:#fff;
+	color: #d3d3d3;
+	-webkit-text-stroke: 2px #258580;
 } 
-
-.hero-banner-slide{
-	transition:cubic-bezier(1, 0, 0, 1) 3000ms; 
-}
 
 .hero-banner-slider .slick-prev{
 	position: absolute;
@@ -751,6 +747,7 @@ textarea {
 .site-footer ul li{ list-style: none; font-size: 14px; line-height: 18px; margin: 0 0 8px; }
 .site-footer ul li a{ color: #e3e3e3; }
 .site-footer ul li a:hover{ color: #2abcc0; }
+.site-footer .footer-widget img a:hover{ color: #2abcc0; }
 
 .footer-signup-section{ padding: 18px 0; background: url(images/contact-bg.jpg) no-repeat center; background-size: cover; }
 .footer-logo-size{ max-width: 205px; }
@@ -923,8 +920,8 @@ span.prev.slick-arrow{cursor: pointer;}
 .two-column-details .left-column .details h4{color: #fff;}
 .two-column-details .left-column .details p{color: #fff;}
 .two-column-details .row .left-column{width: 50%;}	
-.two-column-details .left-column .btn{background-color: #000; margin-left: 90px;}
-.two-column-details .left-column .btn:hover{background: #BDD700;}	
+.two-column-details .left-column .btn{background-color: #000; color: #FFF; margin-left: 90px;}
+.two-column-details .left-column .btn:hover{box-shadow: 0px 0px 6px #2ABCC099; background: #000; color: #fff;}	
 .two-column-details .right-column .btn{margin-left: 130px; }
 .two-column-details .right-column .details{margin-left: 60px; }
 .normal-text-banner{display: flex; align-items: center; justify-self: center; flex-direction: column; min-height: 707px; background-repeat: no-repeat; background-size: cover;}
@@ -1835,7 +1832,7 @@ div.af_quote_fields table.quote-fields {
 	.two-column-text-main > div{ padding: 40px 15px !important; }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px){d
 	.page-banner-main h1{
 		font-size: 42px;
 	}
